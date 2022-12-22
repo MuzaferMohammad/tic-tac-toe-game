@@ -1,0 +1,42 @@
+h4 {
+  margin: 10px;
+}
+.first,.second{
+  color: black;
+  margin: 5px;
+}
+.selection {
+  height: 120px;
+  width: 250px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+.player1,
+.player2 {
+  width: 40px;
+  height: 20px;
+}
+.player1 {
+  margin-right: 5px;
+}
+.player2 {
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+.player-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.error {
+  display: flex;
+  justify-content: center;
+}
+
+.radio-button {
+  display: flex;
+  justify-content: center;
+}
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}

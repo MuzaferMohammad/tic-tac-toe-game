@@ -1,0 +1,17 @@
+.step {
+    padding: 8px 16px;
+    background: rgb(31, 141, 237);
+    max-width: 150px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 150px;
+  }
+  .step + .step {
+    margin-top: 5px;
+  }
+  .step:active {
+    background: bisque;
+  }
+  .step.selected {
+    background: rosybrown;
+  }
